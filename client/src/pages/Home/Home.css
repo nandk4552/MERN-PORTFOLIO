@@ -1,0 +1,55 @@
+.home-container{
+    height:  300px;
+    color: white;
+    padding-left: 10rem;
+    overflow: hidden;
+}
+.home-content { 
+    overflow: hidden;
+}
+.home-content h2 {
+    padding: .5rem;
+    padding-top: 5rem;
+
+}
+.home-content h1 {
+    padding: .5rem;
+    color: #a45ee9;
+}
+.home-btns  {
+    margin-top: 2rem;
+}
+.home-btns .btn-hire {
+    color: #a45ee9;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid #a45ee9 !important;
+    margin-right: .5rem;
+}
+
+.home-btns .btn-hire svg  {
+    margin-right: .1rem;
+    margin-bottom: .2rem;
+    padding: .1rem;
+}
+.home-btns .btn-hire:hover {
+    background-color: #a45ee9;
+    color: #fff;
+}
+.home-btns .btn-cv {
+    color: #109f38;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid #109f38;
+}
+.home-btns .btn-cv svg  {
+    margin-right: .1rem;
+    margin-bottom: .2rem;
+    padding: .1rem;
+}
+.home-btns .btn-cv:hover {
+    background-color: #109f38;
+    color: #fff;
+}
