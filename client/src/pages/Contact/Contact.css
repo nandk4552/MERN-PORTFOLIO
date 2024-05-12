@@ -1,0 +1,118 @@
+.contact {
+  padding: 5rem 0;
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+.contact .card#dark {
+  background-color: #7f00ff;
+}
+
+.contact h1 {
+  color: #555;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.contact h1::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  border-bottom: 0.2rem solid #7f00ff;
+}
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+}
+.card2 {
+  margin: 0 3rem;
+}
+.card1 .image {
+  height: 100%;
+  width: 100%;
+}
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0e0;
+  margin-top: 0.6rem;
+}
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+}
+.border-line {
+  border-right: 1px solid #e0e0e0e0;
+}
+
+::placeholder {
+  color: #777777cb;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 1rem;
+}
+input,
+textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 0.2rem;
+  width: 100%;
+  color: #7f00ff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0;
+}
+.button {
+  background-color: #7f00ff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  margin-top: 1.2rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-weight: 600;
+}
+.button:hover {
+  opacity: 0.9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.hover {
+  text-decoration: none;
+}
+.hover:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .contact .card2 {
+    margin: 0;
+  }
+  .border-line {
+    border-right: 0;
+  }
+}

@@ -1,24 +1,13 @@
-import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
+import { BsBootstrap, BsFiletypeCss, BsFiletypeHtml } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
 import {
-  SiJavascript,
-  SiMui,
-  SiReact,
-  SiTailwindcss,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
-  SiMongodb,
-  SiMysql,
-  SiTypescript,
-  SiGithub,
-  SiWordpress,
-  SiFirebase,
-  SiDocker,
   SiExpress,
-  SiNginx,
-  SiAngular,
+  SiGithub,
+  SiJavascript,
+  SiMongodb,
+  SiMui,
+  SiMysql,
+  SiReact,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -45,12 +34,6 @@ export const TechstackList = [
     _id: 7,
     name: "React JS",
     icon: SiReact,
-  },
-
-  {
-    _id: 9,
-    name: "React MUI",
-    icon: SiMui,
   },
 
   {

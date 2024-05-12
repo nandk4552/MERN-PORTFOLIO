@@ -3,10 +3,10 @@ import Home from "../../pages/Home/Home";
 import Menus from "../Menus/Menus";
 import { RiArrowLeftDoubleFill, RiArrowRightDoubleFill } from "react-icons/ri";
 import "./Layout.css";
+import { useTheme } from "../../context/ThemeContext";
 
 const Layout = () => {
   const [toggle, setToggle] = useState(false);
-
   // change toggle
   const handleToggle = () => {
     setToggle(!toggle);
@@ -26,7 +26,7 @@ const Layout = () => {
           </div>
           <Menus toggle={toggle} />
         </div>
-
+        
         <div className="container">
           <Home />
         </div>

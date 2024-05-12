@@ -1,0 +1,101 @@
+.projects {
+  padding-left: 6rem;
+  margin: 5rem 0;
+}
+.projects h1 {
+  color: #555;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.projects h1::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  border-bottom: 0.2rem solid #7f00ff;
+}
+.projects p {
+  margin: 1rem 0;
+}
+#ads {
+  margin: 1.5rem 0 1.5rem 0;
+}
+#ads .card-notify-badge {
+  position: absolute;
+  left: -0.8rem;
+  top: -1.2rem;
+  background-color: #7f00ff;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.projects .card:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 0.5s ease;
+}
+.projects .card img {
+  height: 12rem;
+  width: 100%;
+}
+.card-detail-badge {
+  background-color: #109f38;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  margin: 0.1rem;
+  cursor: pointer;
+}
+.card-detail-badge:hover {
+  opacity: 0.9;
+}
+
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #fff;
+}
+.ad-btn {
+  text-transform: uppercase;
+  width: 130px;
+  height: 45px;
+  display: block;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 3rem;
+  border-radius: 5rem;
+  margin: 1.5rem auto;
+
+  text-decoration: none;
+}
+
+.ad-btn:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+/* projects mobile css */
+@media (max-width: 600px) {
+  .projects {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .projects .card {
+    margin-top: 25px;
+  }
+}
